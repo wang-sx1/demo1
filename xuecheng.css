@@ -1,0 +1,210 @@
+
+* {
+      /* 给所有盒子清除上下左右边 因为有很多盒子自带边距离 */
+      margin: 0;
+      padding: 0;
+   }
+   .w {
+      overflow: hidden;
+      width: 1200px;
+      margin: auto;
+   }
+   body {
+      background-color: #f3f5f7;
+   }
+   li {
+      list-style: none;
+   }
+   a {
+      /* 给链接一个黑色字体  */
+     
+      /* 让链接没有下划线 */
+      text-decoration: none;
+  }
+   .header {
+      height: 42px;
+      
+      margin: 30px auto;
+   }
+   .logo {
+      float: left;
+      width: 198px;
+      height: 42px;
+      
+   }
+   .nav {
+      float: left;
+      margin-left: 60px;
+   }
+   .nav ul li {
+      float: left;
+      margin: 0 15px;
+   }
+   .nav ul li a {
+      
+      display: block;
+      height: 42px;
+      padding: 0 10px;
+      line-height: 42px;
+      font-size: 18px;
+      color: #050505;
+   }
+   .nav ul li a:hover {
+      border-bottom: 2px solid rgb(29, 152, 209);
+      color: #a2a2b1; 
+   } 
+   .search {
+      float: left;
+      width: 412px;
+      height: 42px;
+      
+      margin-left: 70px;
+   }
+   .search input {
+      float: left;
+      width: 345px;
+      height: 40px;
+      border: 1px solid skyblue;
+      border-right: 0;
+      color: #bfbfbf;
+      font-size: 14px;
+      padding-left: 15px;
+   }
+   .search button {
+      float: left;
+      width: 50px;
+      height: 42px;
+      border: 0;
+      background: url(im/btn.png);
+   }
+  .usee {
+   float: right;
+   line-height: 42px;
+   margin-right: 30px;
+   font-style: 14px;
+   color: #666;
+    
+  }
+   /* 上面结束了 */
+   .binner {
+      height: 421px;
+      background-color: #1c036c;
+   }
+   .binner .w {
+      height: 421px;
+      background-color: #9e97b6;
+      background: url(im/banner2_20190819_210028.png)no-repeat top center;
+   }
+   .subnav {
+      height: 421px;
+      width: 190px;
+      background: rgba(0,0,0, 0.3);
+      float: left;
+        
+      }
+
+   .subnav ul li {
+      height: 45px;
+      line-height: 45px;
+      padding: 0px 20px;
+      
+   }
+   .subnav ul li a{
+      font-style: 14px;
+      color: #fff;
+      
+   }
+   .subnav ul li a:hover {
+      border-bottom: 2px solid rgb(29, 152, 209);
+      color: #a2a2b1; 
+   }
+   .subnav ul li a span {
+      float: right;
+
+   }
+   .subnav ul li a:hover {
+      color: #3f10d6;
+   }
+   .daohao {
+      float: right;
+     
+      width: 230px;
+      height: 300px;
+      background-color: #fff;
+      margin-top: 50px;
+     
+      
+   }
+   .daohao h3 {
+
+      font-size: 18px;
+      color: #ffffff; 
+      background-color: #9bceea;
+      text-align: center;
+      line-height: 50px ;
+      
+   }
+   .daohao ul li {
+      margin: 0px 20px;
+      padding: 14px 0;
+      border-bottom: 1px solid rgb(29, 152, 209);
+      
+      
+   }
+   .daohao ul li h4 {
+      
+      font-size: 15px;
+      
+      
+   }
+   
+   .daohao ul li p {
+      color: #726f6f; 
+      font-size: 12px;
+      
+      
+   }
+   .daohao a {
+      width: 199px;
+      height: 39px;
+      border-bottom: 1px solid rgb(29, 152, 209);
+   }
+   .daohao .mo {
+      display: inline-block;
+      margin-top: 10px;
+      margin: 0px 15px;
+      height: 36px;
+      border: 1px solid rgb(29, 152, 209);
+      text-align: center;
+      line-height: 36px;
+      
+   }
+   .daohao .mo {
+      margin-top: 5px;
+
+   }
+   .daohao .mo:hover {
+     
+      color: #a2a2b1; 
+   }
+   /* 第一个头部完事 */
+ .jingping {
+    
+    height: 60px;
+    background-color: salmon;
+    margin-top: 10px;
+    text-align: center;
+ }
+ .jingping li {
+   float: left
+   
+ }
+.jingping li a {
+   margin: 0px 35px;
+   font-size: 16px;
+   font-weight:500;
+}
+
+
+
+      
